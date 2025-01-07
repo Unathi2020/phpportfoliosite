@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unathi Makwabe | Full Stack Developer</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- JavaScript -->
+    <script src="myscripts.js" defer></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Resume.html">Résumé</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Blog.html">Blog</a>
+    </div>
+    
+    <section id="hero" class="hero">
+        <h1>Unathi Makwabe</h1>
+        <h2>Microsoft Certified Full Stack Web Developer</h2>
+        <p>I craft dynamic, secure, and scalable web applications that drive business growth and innovation.</p>
+    </section>
+    
+
+    <!-- Journey Section -->
+    <section class="info-section">
+        <h3>My Journey</h3>
+        <ul>
+            <li>2007 - Introduced to Java and Object-Oriented Programming.</li>
+            <li> 2019 - Earned Microsoft Certified Solutions Developer Certificate.</li>
+            <li>2021 - Worked Tech Support on Windows Systems.</li>
+            <li>2020 - Started building websites for fun, later for small businesses.</li>
+        </ul>
+        <p>
+            Click <a href="about.html">here</a> to view my certificates and 
+            <a href="resume.html">resume</a>.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h3>Get in Touch</h3>
+        <form action="send_email.php" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-social">
+                <h3>Connect on Social Media</h3>
+                <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:unathimakwabe@gmail.com">unathimakwabe@gmail.com</a></p>
+                <p>Phone: <a href="tel:+2776277477">+27 76 277 477</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Unathi Makwabe. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
