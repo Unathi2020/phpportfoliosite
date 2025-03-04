@@ -1,0 +1,172 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unathi Makwabe | Full Stack Developer</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- JavaScript -->
+    <script src="myscripts.js" defer></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <nav class="navbar">
+        <a href="index.html" style="color: #0000FF">Home</a>
+        <a href="About.html" style="color: #0000FF">About</a>
+        <a class="active" href="Résumé.html" style="color: #0000FF">Resume</a>
+        <a href="Projects.html" style="color: #0000FF">Projects</a>
+        <a href="Blog.html" style="color: #0000FF">Blog</a>
+    </nav>
+    
+    <section id="hero" class="hero">
+        <h1 id ="hero-text">Unathi Makwabe</h1>
+        <p>I craft dynamic, secure, and scalable web applications that drive business growth and innovation.</p>
+
+        <div class="info-container-hero" ;>
+            <img src="webmedia/melogo.jpg" style="width:15%;height:5%" style ="border-radius: 50%">
+            
+        </div>
+
+
+       
+    </section>
+  
+    <!-- Journey Section -->
+    <section class="info-section">
+        <div class="info-container">
+            <div class="info-container-text">
+                <div class="info-container-header">
+                    <h3 style="text-align: center;">My Journey</h3>
+                </div> 
+     
+        
+        <ul id="timeline">
+            <li class="timeline-item" data-img="image1.jpg">2007 - Introduced to Java and Object-Oriented Programming.</li>
+            <li class="timeline-item" data-img="image1.jpg">2009 - Completed Highschool at Crawford college Pretoria.</li>
+            <li class="timeline-item" data-img="image1.jpg">2016 - Completed Bachelors Degree in Business</li>
+            <li class="timeline-item" data-img="image1.jpg">2018 - Resigned from Sales job to pursue ICT technical studies</li>
+            <li class="timeline-item" data-img="image1.jpg">2019 - Earned Microsoft Certified Solutions Developer Certificate.</li>
+            <li class="timeline-item" data-img="image1.jpg">2020 - LOCKDOWN - spent a lot of time refining coding skills</li>
+            <li class="timeline-item" data-img="image1.jpg">2021 - Worked Tech Support on Windows Systems.</li>
+            <li class="timeline-item" data-img="image1.jpg">2020 - Started building websites for fun, later for small businesses.</li>
+            <li class="timeline-item" data-img="image1.jpg">2024 - Updated my personal website </li>
+            <li class="timeline-item" data-img="image1.jpg">2025 - Diplomatic training in Foreign ministry</li>
+        </ul>
+       
+
+        <p>
+            Click <a href="about.html">here</a> to view my certificates and 
+            <a href="Résumé.html">resume</a>.
+        </p>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Latest Blog article - Jaavascript -->
+     <section class="info-section">
+        <div class="info-container">
+            <div class="info-container-text">
+                <div class="info-container-header">
+                    <h3 style="text-align: center;">Latest Blog Articles</h3>
+                </div> 
+    
+                <div class="info-container-pic">
+
+            
+            <center>
+                <h4>Website security fundamentals</h4>
+                <img src="webmedia/websec.jpeg" style="width:50%;height:40%">
+
+
+            </center>
+            
+       
+                </div>
+
+                <div class="info-container-pic">
+
+       
+                    <center>
+                        <h4>Designing a good website</h4>
+                        <img src="webmedia/webdes.png" style="width:50%;height:40%">
+                            
+                            <p>click <a href= Blog.html> here </a>to read more!!</p>
+                    </center>
+     
+                </div>
+               
+    
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="info-container">
+            <div class="info-container-text">
+                <div class="info-container-header">
+                    <h3 style="text-align: center;">Get in Touch</h3>
+                </div> 
+       
+                <form action="process_form.php" method="post" class="contact-form">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label>Select the service you need:</label>
+                        <select id="services" name="services" required>
+                            <option value="" disabled selected>Select a service</option>
+                            <option value="Personal website">Personal website like yours</option>
+                            <option value="Business website">Professional website for my business</option>
+                            <option value="Startup web development">Creative web developer for my tech startup</option>
+                            <option value="Security testing">Security testing for my website</option>
+                            <option value="Tutoring">Extra-curricular tutoring classes for kids</option>
+                            <option value="Website redesign">Website master to redesign my legacy website</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="message">Additional Details or Questions:</label>
+                        <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+                    </div>
+                
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-social">
+              
+                <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="footer-contact">
+               
+                <p>Email: <a href="mailto:unathimakwabe@gmail.com">unathimakwabe@gmail.com</a></p>
+                <p>Phone: <a href="tel:+2776277477">+27 76 277 477</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
